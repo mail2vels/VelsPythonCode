@@ -1,0 +1,18 @@
+CREATE TABLE book_details (
+  bookId INT(11) NOT NULL AUTO_INCREMENT,
+  bookName VARCHAR(255) NOT NULL DEFAULT '',
+  authorOfBook VARCHAR(255) NOT NULL DEFAULT '',
+  bookPrice FLOAT NOT NULL DEFAULT '0.0',
+  PRIMARY KEY (bookId)
+);
+
+
+INSERT INTO book_details (bookId, bookName, authorOfBook, bookPrice) VALUES
+(1, 'Book1', 'authorOfBook1', 100),
+(2, 'Book2', 'authorOfBook2', 200),
+(3, 'Book3', 'authorOfBook3', 300),
+(4, 'Book4', 'authorOfBook4', 400),
+(5, 'Book5', 'authorOfBook5', 500),
+(6, 'Book6', 'authorOfBook6', 600);
+
+
